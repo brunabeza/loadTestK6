@@ -1,0 +1,13 @@
+{
+  "name": "loadtestk6",
+  "version": "1.0.0",
+  "description": "Load Tests Project",
+  "main": "index.js",
+  "scripts": {
+    "load-test": "k6 run load-test.js",
+    "load-test-report": "k6 run --out json=report.json load-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
