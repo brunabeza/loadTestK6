@@ -1,13 +1,18 @@
 {
   "name": "loadtestk6",
   "version": "1.0.0",
-  "description": "Load Tests Project",
-  "main": "index.js",
+  "main": "k6.config.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
-    "load-test": "k6 run load-test.js",
-    "load-test-report": "k6 run --out json=report.json load-test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "k6": "^0.0.0"
+  }
 }
