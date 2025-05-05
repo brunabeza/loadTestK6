@@ -1,6 +1,6 @@
 import http from 'k6/http'
 import { check } from 'k6'
-import { options } from '../k6.config.js'
+import { options } from '../config/k6.config.js'
 import { BASE_URL } from '../data/url.js'
 
 export { options }

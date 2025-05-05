@@ -6,7 +6,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:load": "k6 run --summary-export=results/summary.json tests/load.test.js",
+    "report:generate": "node ./scripts/generate-report.js"
   },
   "keywords": [],
   "author": "",
